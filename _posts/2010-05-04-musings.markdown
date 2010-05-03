@@ -1,0 +1,6 @@
+---
+layout: default
+title: Musings
+---
+
+A simple blog for the simple musings of a programmer...
