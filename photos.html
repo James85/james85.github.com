@@ -4,26 +4,5 @@ title: My Photos
 ---
 
 My photos will be going here
-
-<?php
-
-function getImages($path)
-{
-    $images = array();
-    if($img_dir = @opendir($path))
-    {
-        while (false != ($img_file = readdir($img_dir)))
-        {
-            $images[] = $img_file;
-        }
-
-        closedir($img_dir);
-   }
-   return $images;
-}
-
-$imgList = getImages('images/');
-$img = $imgList[0];
-?>
-<img src="<?php echo /images/.$img?>"/>
-
+<p/>
+<img src="images/girls.jpg"/>
