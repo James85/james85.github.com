@@ -8,7 +8,7 @@ for fname in dirList:
             fname = fname.replace('.jpg', '')
             f = open('B_'+fname+'.html','w')
             f.write('---\n')
-            f.write('layout: default\n')
+            f.write('layout: photos\n')
             f.write('title: Photo\n')
             f.write('---\n')
             f.write('<img src="B_'+fname+'.jpg"/>')
