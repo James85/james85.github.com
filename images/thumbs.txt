@@ -1,11 +1,3 @@
---
-layout: default
-title: My Photos
----
-
-My photos will be going here
-<p/>
--
 <a href="images/B_1.html"><img src="images/1.jpg"/></a>
 <a href="images/B_2.html"><img src="images/2.jpg"/></a>
 <a href="images/B_3.html"><img src="images/3.jpg"/></a>
